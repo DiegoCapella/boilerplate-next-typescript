@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from 'styles/globals'
 import { theme } from 'styles/theme'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
@@ -22,4 +22,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-export default MyApp
+export default App
